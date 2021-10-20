@@ -1,0 +1,7 @@
+{
+    "action": "msg",
+    "encoding": "ascii",
+    "from": "Петрова П.П.",
+    "message": "Привет!",
+    "to": "Иванову И.И."
+}
