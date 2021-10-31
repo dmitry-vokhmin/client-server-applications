@@ -1,0 +1,18 @@
+{
+    "orders": [
+        {
+            "item": "test",
+            "quantity": 2,
+            "price": 100,
+            "buyer": "me",
+            "date": "2021-10-20"
+        },
+        {
+            "item": "test",
+            "quantity": 2,
+            "price": 100,
+            "buyer": "me",
+            "date": "2021-10-20"
+        }
+    ]
+}
