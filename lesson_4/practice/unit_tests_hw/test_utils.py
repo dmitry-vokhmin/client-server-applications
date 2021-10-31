@@ -90,6 +90,8 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(get_message(test_sock_ok), self.test_dict_recv_ok)
         # тест корректной расшифровки ошибочного словаря
         self.assertEqual(get_message(test_sock_err), self.test_dict_recv_err)
+        # тест корректной расшифровки не правильного словаря
+        self.assertNotEqual(get_message(test_sock_err), self.test_dict_recv_ok)
 
 
 if __name__ == '__main__':
